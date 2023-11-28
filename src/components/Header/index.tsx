@@ -32,7 +32,9 @@ const Header: React.FC = () => {
         </Logos>
         <Login>
           {state.isLoggedIn ? (
-            <span>Logged in as: {state.username}</span>
+            <span>
+              Logged in as: <span>{state.username}</span>
+            </span>
           ) : (
             <Link to="/login">
               <span className="login">Login</span>

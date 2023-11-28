@@ -9,7 +9,7 @@ export const Wrapper = styled.div`
   width: 100%;
   height: 70px;
   background: var(--medGrey);
-  color: var(--white);
+  color: var(--lightGrey);
 `;
 
 export const Content = styled.div`

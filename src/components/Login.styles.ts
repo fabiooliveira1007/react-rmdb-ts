@@ -8,7 +8,7 @@ export const Wrapper = styled.div`
   max-width: 320px;
   margin: 0 auto;
   padding: 20px;
-  color: var(--darkGrey);
+  color: var(--lightGrey);
 
   input {
     width: 100%;

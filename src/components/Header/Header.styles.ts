@@ -24,6 +24,7 @@ export const Login = styled.div`
  
   span {
     color: var(--lightGrey);
+    text-decoration: none;
   }
 
   .login {
@@ -31,6 +32,7 @@ export const Login = styled.div`
     border: 1px solid var(--medGrey);
     border-radius: 4px;
     padding: 4px 8px;
+    text-decoration: none;
 
     &:hover {
       background-color: var(--medGrey);
