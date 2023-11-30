@@ -9,7 +9,6 @@ import {
   Wrapper,
   Content,
   Logos,
-  Login,
   LogoImg,
   TMDBLogoImg,
 } from "./Header.styles";
@@ -30,17 +29,7 @@ const Header: React.FC = () => {
           </Link>
           <TMDBLogoImg src={TMDBLogo} alt="tmdb-logo" />
         </Logos>
-        <Login>
-          {state.isLoggedIn ? (
-            <span>
-              Logged in as: <span>{state.username}</span>
-            </span>
-          ) : (
-            <Link to="/login">
-              <span className="login">Login</span>
-            </Link>
-          )}
-        </Login>
+  
       </Content>
     </Wrapper>
   );
