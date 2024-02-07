@@ -7,7 +7,7 @@
 
 ---
 
-> The `react-rmdb-ts` is the TypeScript version that was made for study porpouses based on <a href="https://www.youtube.com/watch?v=nTeuhbP7wdE&t=18803s&pp=ygUKcmVhY3Qgcm1kYg%3D%3D">`The original project`</a>.
+> The `react-rmdb-ts` is the TypeScript version that was built for study porpouses based on <a href="https://www.youtube.com/watch?v=nTeuhbP7wdE&t=18803s&pp=ygUKcmVhY3Qgcm1kYg%3D%3D">`The original project`</a>.
 
 # Development
 
