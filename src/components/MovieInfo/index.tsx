@@ -7,7 +7,6 @@ import Thumb from "../Thumb";
 import Rate from "../Rate";
 // Config
 import { IMAGE_BASE_URL, POSTER_SIZE } from "../../config";
-import API from "../../API";
 // Styles
 import { Wrapper, Content, Text } from "./MovieInfo.styles";
 // Image
@@ -19,14 +18,7 @@ type Props = {
 };
 
 const MovieInfo: React.FC<Props> = ({ movie }) => {
-  const { state } = useContext(Context);
-
   const fixedRating = movie.vote_average.toFixed(1);
-
-  const handleRating = async (rating: string) => {
-    const rate = await API.rateMovie(state.sessionId, movie.id, rating);
-    console.log(rate);
-  };
 
   return (
     <Wrapper backdrop={movie.backdrop_path}>
@@ -56,12 +48,6 @@ const MovieInfo: React.FC<Props> = ({ movie }) => {
               ))}
             </div>
           </div>
-          {state.isLoggedIn && (
-            <div>
-              <h3>Rate Movie</h3>
-              <Rate callback={(rating) => handleRating(rating)} />
-            </div>
-          )}
         </Text>
       </Content>
     </Wrapper>

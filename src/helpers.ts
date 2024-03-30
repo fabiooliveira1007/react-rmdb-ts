@@ -15,8 +15,8 @@ export const convertMoney = (money: number): string => {
 };
 
 // SessionStorage
-// eslint-disable-next-line
-export const isPersistedState = (stateName: string): any => {
+
+export const isPersistedState = (stateName: string) => {
   const sessionState = sessionStorage.getItem(stateName);
   return sessionState && JSON.parse(sessionState);
 };

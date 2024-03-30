@@ -2,7 +2,6 @@
 import { useState, useEffect } from "react";
 // API
 import API, { Movie, Cast, Crew } from "../API";
-
 // Types
 export type MovieState = Movie & { actors: Cast[]; directors: Crew[] };
 
