@@ -1,27 +1,58 @@
-<p align="center">
-  <img alt="React" src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB">
-  <img alt="Vite" src="https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white">
-  <img alt="TypeScript" src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white">
-  <img alt="Styled-components" src="https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white">
-</p>
+# React RMDB TypeScript 🎥
 
----
+Bem-vindo ao **React RMDB TypeScript**! Este é um projeto de um catálogo de filmes construído com React e TypeScript, inspirado no design do The Movie Database (TMDB). O objetivo principal deste projeto é demonstrar habilidades no uso de TypeScript, gerenciamento de estado e estilização avançada, enquanto explora conceitos modernos do ecossistema React.
 
-> The `react-rmdb-ts` is the TypeScript version that was built for study porpouses based on <a href="https://www.youtube.com/watch?v=nTeuhbP7wdE&t=18803s&pp=ygUKcmVhY3Qgcm1kYg%3D%3D">`The original project`</a>.
+## 🚀 Funcionalidades Principais
 
-# Development
+- **Busca de Filmes:** Pesquise filmes em uma base de dados.
+- **Detalhes do Filme:** Veja informações detalhadas sobre filmes individuais.
+- **Salvamento Local:** Armazene informações localmente para acesso rápido, mesmo offline.
+
+## 🛠️ Tecnologias Utilizadas
+
+### Frontend
+- **React** - Biblioteca JavaScript para construção de interfaces de usuário.
+- **React Router Dom** - Navegação entre páginas de forma declarativa.
+- **Styled-Components** - Estilização com CSS-in-JS, criando componentes reutilizáveis e temáticos.
+- **Tailwind CSS** - Framework para estilização rápida e customizável.
+
+### Gerenciamento e Persistência de Dados
+- **LocalForage** - Armazenamento local para cache e persistência de dados offline.
+
+### Utilitários
+- **Match Sorter** - Filtragem e ordenação de dados baseados em busca.
+- **Sort By** - Ordenação simples de listas.
+
+### Desenvolvimento
+- **TypeScript** - Tipagem estática para maior segurança e previsibilidade no código.
+- **Vite** - Ferramenta de build moderna e rápida.
+- **ESLint** - Linter para garantir qualidade e padronização de código.
+- **Sass** - Suporte para CSS pré-processado.
+
+## 🚧 Como Executar o Projeto
+
+Siga os passos abaixo para executar o React RMDB TypeScript em sua máquina local:
 
 ```bash
-# Clone this repository
-git clone https://github.com/fso1007/react-rmdb-ts.git
+# Clone o repositório
+git clone https://github.com/fabiooliveira1007/react-rmdb-typescript.git
 
-# Go to the root folder
+# Acesse o diretório do projeto
 cd react-rmdb-ts
 
-# Install the dependencies
+# Instale as dependências
 npm install
 
-# Run the dev server
+# Execute o projeto em modo de desenvolvimento
 npm run dev
-
 ```
+
+O projeto estará disponível em `http://localhost:5173`.
+
+## 📸 Screenshots
+
+| Tela Principal | Detalhes do Filme |
+|---------------|--------------------|
+|<img src="https://raw.githubusercontent.com/fabiooliveira1007/images/refs/heads/main/homepage-rmdb.PNG" width="400"/> | <img src="https://raw.githubusercontent.com/fabiooliveira1007/images/refs/heads/main/movie-rmdb.PNG" width="400"/> |
+
+---
